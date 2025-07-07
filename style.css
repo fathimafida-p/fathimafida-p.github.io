@@ -604,3 +604,8 @@ h2 {
  .ph{
     margin-bottom: 60px;
  }
+
+ .bg-green{
+  background-color: rgba(15, 125, 125, 1);
+  padding: 60px;
+ }
