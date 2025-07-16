@@ -14,7 +14,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <body>
+
+
+    <!-- loading -->
+    <div id="page-loader">
+        <div class="dots-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+
     <!-- header -->
 
     <div class="container">
@@ -67,9 +79,11 @@
                     <div class="col-md-3">
                         <div class="bg">
                             <img class="bg-img"
-                                src="img/bg-lap.png" alt="">
+                            src="img/bg-lap.png" alt="laptop" class="image">
+                            <div class="screen-text">Welcome to my Portfolio</div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -80,11 +94,11 @@
                 <div class="col-md-4">
                     <img src="img/Group 69.png" alt="">
                     <div class="icons">
-                       <i class="fa-brands fa-whatsapp fa-xl" style="color: #0b7c7c;"></i>
-                       <i class="fa-brands fa-instagram fa-xl" style="color: #0b7c7c;"></i>
-                       <i class="fa-brands fa-linkedin-in fa-xl" style="color: #0b7c7c;"></i>
-                       <i class="fa-brands fa-behance fa-xl" style="color: #0b7c7c;"></i>
-                       <i class="fa-brands fa-github fa-xl" style="color: #0b7c7c;"></i>
+                        <a href="https://wa.me/9400071958"><i class="fa-brands fa-whatsapp fa-xl social-icons"></i></a>
+                        <a href="https://instagram.com/fida._uiux"><i class="fa-brands fa-instagram fa-xl social-icons"></i></a>
+                        <a href="https://www.linkedin.com/in/fida-p"><i class="fa-brands fa-linkedin-in fa-xl social-icons"></i></a>
+                        <a href="https://www.behance.net/ayhamayzam"><i class="fa-brands fa-behance fa-xl social-icons"></i></a> 
+                        <a href="https://github.com/fathimafida-p.github.io"><i class="fa-brands fa-github fa-xl social-icons"></i></a>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -102,7 +116,7 @@
                         <div class="d-flex gap-3">
                             <a class="cta-btn-1" href="">Let's Talk</a>
                             <div class="dwnld-btn">
-                                <a class="cta-btn-2" href=""><img src="img/download.png" alt=""> Download CV</a>
+                                <a class="cta-btn-2" href=""><i class="fa-solid fa-download fa-lg"></i> Download CV</a>
                             </div>
                         </div>
                     </div>
@@ -119,7 +133,10 @@
                 <div class="service">
                     <div class="col-md-5">
                         <div class="sec-1">
-                            <h3>WHAT I DO? <img src="img/Group 2.png" alt=""></h3>
+                            <div>
+                            <h3>WHAT I DO?</h3>
+                             <img src="img/Group 2.png" alt="">
+                            </div>
                             <p>I offer UI/UX design services,
                             specializing in user research,
                             wireframing, prototiping, and
@@ -134,30 +151,30 @@
 
                     <div class="col-md-7">
                         <div class="row box">
-                            <div class="col-md-6">
+                            <div class="col-md-6 box-1">
                                 <div class="service-box">
-                                    <i class="fa-solid fa-puzzle-piece fa-lg" style="color: #0b7c7c;"></i>
+                                    <i class="fa-solid fa-puzzle-piece fa-lg icon-toggled"></i>
                                     <h5>USER EXPERIENCE (UX)</h5>
                                     <p>focuses on creating seamless interaction between users and products.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="service-box">
-                                    <img src="img/lifebuoy.png" alt="">
+                                    <i class="fa-solid fa-palette fa-lg icon-toggled"></i>
                                     <h5>USER INTERFACE (UI)</h5>
                                     <p>creating visually appealing and interactive elements that users engage with.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 box-2">
                                 <div class="service-box">
-                                   <i class="fa-solid fa-laptop fa-lg" style="color: #0b7c7c;"></i>
+                                   <i class="fa-solid fa-laptop fa-lg icon-toggled"></i>
                                     <h5>WEB DESIGN</h5>
                                     <p>combines aesthetics and functionality to create engaging online experiences.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="service-box">
-                                    <img src="img/smartphone.png" alt="">
+                                   <i class="fa-solid fa-mobile-screen-button fa-lg icon-toggled"></i>
                                     <h5>APP DESIGN</h5>
                                     <p>creating mobile applications that are both functional and visually appealing.</p>
                                 </div>
@@ -173,7 +190,10 @@
     <!-- education -->
     <section id="education">
         <div class="container">
-            <h3>ACADEMIC DETAILS <img src="img/Group 2.png" alt=""></h3>
+            <div>
+             <h3>ACADEMIC DETAILS</h3>
+             <img src="img/Group 2.png" alt="">
+            </div>
             <div class="timeline"> 
                 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
                     <div class="timeline__event__icon ">
@@ -233,7 +253,10 @@
     <!--skills-->
     <section id="skills">
         <div class="container">
-            <h3>MY ADVANTAGES <img src="img/Group 2.png" alt=""></h3>
+            <div>
+             <h3>MY ADVANTAGES</h3>
+             <img src="img/Group 2.png" alt="">
+            </div>
             <div class="skills-cols">
                 <div>
                     <img class="lap-bg" src="img/background.png" alt="">
@@ -243,19 +266,19 @@
                         <div class="col-md-4">
                             <div class="skills-icons">
                                 <img src="img/figma (2) 1.png" alt="">
-                                <h4>FIGMA</h4>
+                                <h5>FIGMA</h5>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="skills-icons">
                                 <img src="img/adobe-photoshop 1.png" alt="">
-                                <h4>PHOTOSHOP</h4>
+                                <h5>PHOTOSHOP</h5>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="skills-icons">
                                 <img src="img/bootstrap 1.png" alt="">
-                                <h4>BOOTSTRAP</h4>
+                                <h5>BOOTSTRAP</h5>
                             </div>
                         </div>
                     </div>
@@ -263,19 +286,19 @@
                         <div class="col-md-4">
                             <div class="skills-icons">
                                 <img src="img/html 2.png" alt="">
-                                <h4>HTML</h4>
+                                <h5>HTML</h5>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="skills-icons">
                                 <img src="img/js (1) 1.png" alt="">
-                                <h4>JAVA SCRIPT</h4>
+                                <h5>JAVA SCRIPT</h5>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="skills-icons">
                                 <img src="img/css-3 1.png" alt="">
-                                <h4>CSS</h4>
+                                <h5>CSS</h5>
                             </div>
                         </div>
                     </div>
@@ -305,17 +328,29 @@
     <section id="portfolio">
         <div class="container">
             <div class="portfolio">
-                <h3>MY LATEST WORKS <img src="img/Group 2.png" alt=""></h3>
+                <h3>MY LATEST WORKS</h3>
+                <img src="img/Group 2.png" alt="">
             </div>
         </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 gap-5">
                     <div class="web-1"></div>
                 </div>
                 <div class="col-md-4">
                     <div class="web-2"></div>
+                    <div class="btns">
+                        <div class="arrow-btns">
+                            <img src="img/arrow-back-outline.png" alt="">
+                        </div>
+                        <div class="explore-btn">
+                           <img src="img/compass-outline.png" alt=""><span>Explore</span>
+                        </div>
+                        <div class="arrow-btns">
+                            <img src="img/arw-right.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 gap-5">
                     <div class="web-3"></div>
                 </div>
 
@@ -341,41 +376,43 @@
                         <div class="cnt-list">
                            <i class="fa-solid fa-envelope fa-lg" style="color: #0b7c7c;"></i>
                             <div>
-                                <h6>Address:</h6>
-                                <p>Puthukkudi(H) VK Padi,
-                                Malappuram, Kerala</p>
+                                <h6>My Email:</h6>
+                                <p>fathimafidap7736@gmail.com</p>
                             </div>
                         </div>
                         <div class="cnt-list">
                             <i class="fa-solid fa-phone fa-lg" style="color: #0b7c7c;"></i>
                             <div>
-                                <h6>Address:</h6>
-                                <p>Puthukkudi(H) VK Padi,
-                                Malappuram, Kerala</p>
+                                <h6>Call Me Now:</h6>
+                                <p>9400071958</p>
                             </div>
                         </div>
+                      
                     </div>
                     <div class="col-md-7">
-                        <div class="details">
-                            <h6>Name*</h6>
-                            <hr>
-                        </div>
-                        <div class="details">
-                            <h6>Email*</h6>
-                            <hr>
-                        </div>
-                        <div class="details ph">
-                            <h6>ph*</h6>
-                            <hr>
-                        </div>
-                        <div class="details">
-                            <h6>message*</h6>
-                            <hr>
-                        </div>
-                        <div class="submit">
-                         <a class="submit-btn" href="">Submit <img src="img/" alt=""></a>
-                         <img src="img/Vector.png" alt="">
-                        </div>
+                       
+                        <form>
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        
+
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                            
+
+                            <label for="phone">Ph*</label>
+                            
+                            <input type="tel" id="phone" name="phone" required>
+
+                            <label for="message">Message*</label>
+                            
+            
+                            <textarea id="message" name="message" required></textarea>
+                            <div class="submit">
+                             <a class="submit-btn" href="">Submit <img src="img/" alt=""></a>
+                             <img src="img/Vector.png" alt="">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -386,23 +423,25 @@
     <div class="bg-green"></div>
     <footer>
         <div class="footer">
-            <div class="container footer-cntr">
-                <div>
-                 <img src="img/fida..png" alt="">
+            <div class="container">
+                <div class="footer-cntr">
+                    <div>
+                    <img src="img/fida..png" alt="">
+                    </div>
+                    <div class="footer-list">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">Skills</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Services</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    © 2025 All Rights Reserved. 
                 </div>
-                <div class="footer-list">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Skills</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Services</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                © 2025 All Rights Reserved. 
             </div>
         </div>
     </footer>
@@ -466,7 +505,16 @@
 
 
 
-
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.getElementById("page-loader");
+            loader.style.opacity = "0";
+            loader.style.transition = "opacity 0.4s ease";
+            setTimeout(() => {
+            loader.style.display = "none";
+            }, 400);
+        });
+   </script>
 
 
 
