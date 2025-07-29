@@ -445,12 +445,12 @@ h3.active::after{
 .icons i{
   transition: 0.3s ease;
   color: #0b7c7c;
-  padding: 10px;
+  padding: 20px 10px;
 }
-.social-icons:hover{
+.icons i:hover{
   color: white;
   background-color: #0b7c7c;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 5px;
 
 }
@@ -552,6 +552,7 @@ h3.active::after{
 }
 .sec-1 p{
     max-width: 80%;
+    color: #2b2b2b;
 }
 .sec-1 h3{
     margin-bottom: 50px;
@@ -1000,6 +1001,7 @@ h3.active::after{
  }
  .cnt-list{
     margin-bottom: 30px;
+    padding: 20px 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -1009,7 +1011,7 @@ h3.active::after{
 
  .cnt-list:hover{
   background-color: white;
-  padding: 20px;
+  padding: 20px 20px;
   border-radius: 15px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
   0 18px 36px -18px rgba(0, 0, 0, 0.3),
@@ -1098,18 +1100,17 @@ input, textarea {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    margin-top: 50px;
 }
 
 .icons-cnct i{
   transition: 0.3s ease;
   color: #0b7c7c;
-  padding: 10px;
+  padding: 20px 10px;
 }
 .social-icons:hover{
   color: white;
   background-color: #0b7c7c;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 5px;
 
 }
