@@ -1,0 +1,492 @@
+@media screen and (max-width:1299px) {
+ 
+}
+
+@media screen and (max-width:1024px) {
+  #main-header.scrolled {
+  width: 935px;
+  }
+
+  .bg img {
+  width: 455px;
+  height: 450px;
+  }
+
+  .screen-text {
+  left: 29%;
+  }
+
+  .about-desc {
+  margin-top: 50px;
+  }
+
+  .photo {
+  width: 260px;
+  }
+
+  .social-icons {
+  gap: 10px;
+  }
+
+  .profile {
+  padding: 40px 0;
+  margin-left: 40px;
+  }
+
+  .icons {
+  left: 55px;
+  }
+
+  .social-icons{
+  padding: 20px;
+  }
+
+  .arrow-2 {
+  position: absolute;
+  left: 280px;
+  }
+
+  .service-box h5 {
+  white-space: wrap;
+  }
+
+  .lap-bg {
+  width: 380px;
+  height: 460px;
+  }
+
+  .skills-icons {
+  height: calc(232px - 10px);
+  width: 170px;
+  }
+
+  .slide-items img {
+  width: 50%;
+  height: 50%;
+  }
+
+  .screen-slider .slick-next {
+  right: 33%;
+  }
+}
+
+@media screen and (max-width:992px)  {
+  .logo {
+  width: 70px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .logo {
+  width: 60px;
+  }
+
+  .navbar{
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  }
+
+  .nav-logo{
+  display: flex;
+  justify-content: space-between;
+  }
+
+  #main-header.scrolled {
+  width: 515px;
+  }
+
+  #home{
+  margin-top: 0;
+  }
+
+  .hamburger{
+  display: flex;
+  }
+
+  .nav-links{
+  display: none;
+  }
+
+  .nav-links.active {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  padding: 0 50px;
+  flex-direction: column;
+  }
+
+  .bg img {
+  width: 520px;
+  height: 470px;
+  }
+
+  .btns{
+  justify-content: center;
+  }
+
+  .hero-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  }
+
+  .text-intro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  }
+
+  .screen-text {
+  left: 32%;
+  }
+
+  .icons {
+  left: 95px;
+  top: 355px;
+  }
+
+  .photo {
+  width: 300px;
+  }
+
+  .social-icons {
+  padding: 25px 35px;
+  }
+
+  .profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 0;
+  }
+
+  .arrow-2{
+  display: none;
+  }
+
+  .about-desc {
+  margin-top: 30px;
+  }
+
+  .sec-1{
+  margin-bottom: 30px;
+  }
+
+  .timeline__event {
+  width: 70vw;
+  }
+
+  .nav-links {
+  gap: 30px;
+  }
+
+  .skills-icons {
+  height: calc(232px - 10px);
+  width: 100%;
+  margin: 15px;
+  }
+
+  .lap-bg {
+  width: 515px;
+  height: 440px;
+  margin: 15px;
+  }
+
+  .hamburger i {
+  position: absolute;
+  right: 10px;
+  }
+
+  .timeline__event:nth-child(2n+1) .timeline__event__icon:after{
+  display: none;
+  }
+  
+  .timeline__event__title {
+  text-align: center;
+  }
+   
+  .timeline__event__content p {
+  text-align: center;
+  }
+
+  .timeline__event--type2 .timeline__event__icon:after{
+  display: none;
+  }
+  
+  .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
+  display: none;
+  }
+
+  .timeline__event__icon::before{
+  display: none;
+  }
+  
+  .skills-cols {
+  flex-direction: column;
+  gap: 30px;
+  }
+
+  .timeline__event {
+  flex-direction: column !important;
+  width: 70vw;
+  }
+
+  .timeline__event__content,
+  .timeline__event__date {
+  width: 100% !important;
+  border-radius: 10px !important;
+  }
+
+  .timeline__event__icon {
+  margin: 0 auto 20px;
+  }
+
+  .slide-items img {
+  width: 60%;
+  }
+
+  .icons-contact {
+  margin-bottom: 40px;
+  }
+
+  .screen-slider .slick-prev {
+  left: 25%;
+  }
+
+  .screen-slider .slick-next {
+  left: 67%;
+  }
+
+  .explore-btn {
+  left: 38%;
+  }
+
+  .lb-image{
+  width: 300px !important;
+  height: 1000px !important;
+  }
+
+  .work-heading h1{
+  margin-top: 120px;
+  }
+
+  .portfolio{
+    padding: 20px 20px;
+  }
+}
+
+
+
+@media screen and (max-width:576px) {
+  .lap-bg {
+  width: 480px;
+  height: 410px;
+  }
+
+  .skills-icons {
+  height: calc(180px - 10px);
+  width: 94%;
+  }
+
+  .slide-items img {
+  width: 70%;
+  }
+
+  .explore-btn {
+  left: 34%;
+  }
+
+  .screen-slider .slick-prev {
+  left: 20%;
+  }
+
+  .screen-slider .slick-next {
+  left: 69%;
+  }
+
+  h3 {
+  margin-left: 40px;
+  }
+
+  .profile h3{
+  margin: 0;
+  }
+
+  #contact h3{
+  margin-left: 0;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .typewriter {
+  text-align: center;
+  font-size: 30px;
+  }
+
+  #main-header.scrolled {
+  width: 400px;
+  }
+
+  .logo {
+  width: 50px;
+  }
+
+  .bg img {
+  width: 400px;
+  height: 370px;
+  }
+
+  .screen-text {
+  left: 30%;
+  font-size: 15px;
+  }
+
+  .icons {
+  left: 53px;
+  top: 335px;
+  }
+
+  .photo {
+  width: 269px;
+  }
+
+  .btns {
+  white-space: nowrap;
+  }
+
+  .icons {
+  left: 43px;
+  }
+
+  .service-box:hover {
+  transform: scale(1);
+  }
+
+  .lap-bg {
+  width: 370px;
+  height: 360px;
+  }
+
+  .skills-icons:hover {
+  transform: scale(1);
+  }
+
+  .arrow {
+  display: none;
+  }
+
+  .arrw {
+  display: none;
+  }
+
+  .work h2 {
+  font-size: 20px;
+  }
+
+  .work p {
+  width: 60%;
+  }
+
+  .slide-items img {
+  width: 80%;
+  }
+
+  .explore-btn {
+  left: 29%;
+  }
+
+  .screen-slider .slick-prev {
+  left: 11%;
+  }
+
+  .screen-slider .slick-next {
+  left: 75%;
+  }
+
+  .contact-footer {
+  padding: 40px;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  #main-header.scrolled {
+  width: 350px;
+  }
+
+  .bg img {
+  width: 350px;
+  height: 315px;
+  }
+
+  .photo {
+  width: 210px;
+  }
+
+  .typewriter {
+  font-size: 24px;
+  }
+
+  .social-icons {
+  padding: 20px 10px;
+  }
+
+  .icons {
+  top: 275px;
+  }
+
+  .intro-text {
+  max-width: 90%;
+  }
+
+  .social-icons i{
+  font-size: 20px;
+  }
+
+  .icons {
+  left: 50px;
+  top: 235px;
+  }
+
+  .about-me {
+  padding: 10px 30px;
+  }
+
+  .lap-bg {
+  width: 325px;
+  height: 315px;
+  }
+
+  .explore-btn {
+  left: 26%;
+  }
+
+  .screen-slider .slick-prev {
+  left: 7%;
+  }
+
+  .screen-slider .slick-next {
+  left: 78%;
+  }
+
+  .contact-footer {
+  padding: 30px 20px;
+  }
+
+  .icons-contact i{
+  font-size: 20px;
+  }
+
+  .footer-cntr p{
+  font-size: 14px;
+  margin: 0;
+  }
+
+  .project{
+    width: 86%;
+  }
+}
