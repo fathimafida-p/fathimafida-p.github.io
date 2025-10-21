@@ -1033,7 +1033,7 @@ h3:hover{
 
 form {
   max-width: 500px;
-  margin: auto;
+  margin: 0;
 }
 
 .input{

@@ -1,5 +1,91 @@
+@media screen and (max-width: 1400px) {
+  #main-header.scrolled {
+  width: 1300px;
+  }
+
+  .bg img {
+  width: 635px;
+  height: 550px;
+  }
+
+  .screen-text {
+  font-size: 22px;
+  }
+
+  .about-desc {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 70%;
+  }
+
+  .arrow-2 {
+  left: 390px;
+  }
+
+  .icons {
+  bottom: 45px;
+  left: 88px;
+  }
+
+  .lap-bg {
+  width: 520px;
+  height: 510px;
+  }
+
+  .skills-icons {
+  height: calc(257px - 10px);
+  width: 230px;
+  }
+
+  .slide-items img {
+  width: 430px;
+  height: 325px;
+  }
+
+  .explore-btn {
+  left: 43%;
+  }
+
+  .screen-slider .slick-prev {
+  left: 36%;
+  }
+}
+
 @media screen and (max-width:1299px) {
- 
+  #main-header.scrolled {
+  width: 1120px;
+  }
+
+  .bg img {
+  width: 550px;
+  height: 510px;
+  }
+
+  .screen-text {
+  font-size: 20px;
+  }
+
+  .arrow-2 {
+  left: 350px;
+  }
+
+  .icons {
+  left: 66px;
+  }
+
+  .lap-bg {
+  width: 455px;
+  }
+
+  .skills-icons {
+  width: 200px;
+  }
+
+  .slide-items img {
+  width: 400px;
+  height: 300px;
+  }
+
 }
 
 @media screen and (max-width:1024px) {
