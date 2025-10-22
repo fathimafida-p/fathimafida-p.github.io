@@ -505,7 +505,7 @@
 
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:378px) {
   #main-header.scrolled {
   width: 348px;
   }
