@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
   #main-header.scrolled {
   width: 1300px;
   }
@@ -43,11 +43,17 @@
   }
 
   .explore-btn {
-  left: 42%;
+  left: 44%;
   }
 
   .screen-slider .slick-prev {
   left: 36%;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  .explore-btn {
+  left: 43%;
   }
 }
 
@@ -501,16 +507,24 @@
 
 @media screen and (max-width:375px) {
   #main-header.scrolled {
-  width: 350px;
+  width: 348px;
   }
 
   .bg img {
-  width: 350px;
+  width: 348px;
   height: 315px;
   }
 
   .photo {
   width: 210px;
+  }
+
+  .about-desc {
+  width: 95%;
+  }
+
+  h3 {
+  margin-left: 0;
   }
 
   .typewriter {
@@ -574,5 +588,9 @@
 
   .project{
     width: 86%;
+  }
+
+  .portfolio {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
