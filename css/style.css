@@ -807,21 +807,6 @@ h3:hover{
   margin-right: 20px;
 }
 
-.screen-slider .slick-prev {
-  position: absolute;
-  border: none;
-  left: 0;
-  z-index: 3;
-  top: 35%;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  background: #DCE9FA;
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .screen-slider .slick-prev {
   position: absolute;
@@ -898,6 +883,7 @@ h3:hover{
   position: relative;
   justify-content: center;
   margin-top: 25px;
+  transition: all ease 0.3s;
 } 
 
 .slide-items img{
