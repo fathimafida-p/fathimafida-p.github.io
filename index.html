@@ -31,58 +31,64 @@
         </div>
     </div>
 
-
     <!-- header -->
-    <header>
+    <header class="header mb-5 pb-5">
         <div class="container">
-            <div id="main-header" class="scrolled">
-                <nav class="navbar">
-                    <div class="nav-logo">
-                        <div>
-                        <img class="logo" src="img/logo.webp" alt="logo">
-                        </div>
+            <div class="header-cnt">
+                <div>
+                    <img class="logo" src="img/logo.webp" alt="logo">
+                </div>
+            
+                <!-- Toggle Button-->
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
 
-                        <!-- Hamburger Icon -->
-                        <div class="hamburger">
-                            <i class="fa fa-bars"></i>
-                        </div>
+                <div class="header2-cnt" id="nav-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Services</a></li>
+                            <li><a href="#service">Skills</a></li>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="contact">
+                    <a class="contact-btn" href="#contact">Let's Talk</a>
+                    <div class="btn-arrow"> 
+                        <i class="bi bi-arrow-up-right"></i>
                     </div>
-
-                    <ul class="nav-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        
-                        <li class="contact">
-                            <a class="contact-btn" href="#contact">Contact</a>
-                            <div class="btn-arrow"> 
-                                <i class="bi bi-arrow-up-right"></i>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </div> 
     </header>
 
     <!-- hero -->
-    <section id="home">
+    <section id="home" class="mt-5 pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="hero-cnt">
-                        <div class="heading">
-                            <img class="arrow" src="img/arrow-left.webp" alt="circle with a line" loading="lazy">
+                    <div class="mt-md-5 pt-md-3 hero-cnt">
+                        <div class="d-flex gap-3 align-items-center mt-md-3 d-flex justify-content-center justify-content-md-start mt-mb-0 mb-3">
+                            <img src="img/arrow-left.webp" alt="circle with a line" loading="lazy">
                             <h4><span class="text">Hi, I’m</span><span class="name">Fathima Fida.P</span></h4>
                         </div>
-                        <p class="typewriter">I'm a 
+                        <p class="typewriter mt-md-5">I'm a 
                             <span data-text="ui/ux designer., front-end developer."></span>
                         </p>
-                        <div class="text-intro" data-aos="fade-right"data-aos-duration="3000">
-                            <p class="intro-text">
+                        <div data-aos="fade-right"data-aos-duration="3000">
+                            <p class=" desc mb-5">
                                 I’m a designer passionate about creating intuitive and
                                 engaging digital experiences. I’m always learning
                                 and experimenting with new design principles
@@ -91,7 +97,7 @@
                                 my skills.
                             </p>
 
-                            <div class="btns d-flex gap-3">
+                            <div class="btns d-flex gap-3 mb-4">
                                 <a class="cta-btn-1" href="#contact">Hire Me</a>
                                 <a class="cta-btn-2" href="projects.html">See Projects</a>
                             </div>
@@ -99,11 +105,9 @@
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-duration="3000" class="col-md-6">
-                    <div class="bg">
-                        <img class="bg-img"
-                        src="img/hero-lap.webp" alt="image of laptop" loading="lazy">
-                        <div class="screen-text">Welcome to my Portfolio..|</div>
+                <div data-aos="fade-left" data-aos-duration="3000" class="col-md-6 mt-md-5">
+                    <div class="hero-lap">
+                        <img class="img-fluid w-100" src="img/hero-lap.webp" alt="image of laptop">
                     </div>
                 </div>
             </div>
@@ -113,11 +117,12 @@
     <!-- about-me -->
     <section id="about">
         <div class="container">
-            <div class="about-me position-relative">
+            <div class="about-me">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 text-center mb-4 mb-md-0">
-                            <div class="icons">
+                        <div class="col-md-4 text-center mb-4 mb-md-0 d-flex flex-column align-items-center">
+                            <div>
+                                <img class="img-fluid me" src="img/me.webp" alt="my profile" loading="lazy">
                                 <div class="social-icons">
                                     <a href="https://wa.me/9400071958"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
                                     <a href="https://instagram.com/fida._uiux"><i class="fa-brands fa-instagram fa-xl"></i></a>
@@ -126,33 +131,28 @@
                                     <a href="https://github.com/fathimafida-p.github.io"><i class="fa-brands fa-github fa-xl"></i></a>
                                 </div>
                             </div>
-                            <div>
-                                <img class="photo" src="img/me.webp" alt="portrait of fathimafida-p" loading="lazy">
-                            </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="profile">  
-                                <div class="arrow-2">
-                                    <img src="img/arrow-left.webp" alt="circle with a line" loading="lazy">
-                                </div>
-                                <h3>ABOUT ME</h3>
+                            <div class="profile"> 
+                                <div class="d-flex mt-md-5 pt-4 position-relative profile d-flex justify-content-center justify-content-md-start mt-mb-0 mb-3">
+                                    <div class="arrow">
+                                        <img src="img/arrow-left.webp" alt="circle with a line" loading="lazy">
+                                    </div>
+                                    <h3 class="text-center text-md-start">ABOUT ME</h3>
+                                </div> 
                                 
-                                <P class="about-desc">I’m a passionate designer focused on creating intuitive, engaging,
+                                <P class="mb-5 mt-md-3">I’m a passionate designer focused on creating intuitive, engaging,
                                 and visually compelling digital experiences. I believe great design is about 
                                 solving problems creatively - making interfaces not just beautiful, but meaningful
                                 and effortless to use.
 
                                 I’m constantly learning, experimenting with new tools and design principles, 
-                                and exploring ways to blend creativity with usability. Every project is a
-                                chance to challenge myself, refine my craft, and deliver designs that
-                                connect with people and make a real impact.
+                                and exploring ways to blend creativity with usability.
                                 </P>
 
-                                <div class="d-flex gap-3 align-items-center btns-2">
-                                    <a class="cta-btn-1 talk-btn" href="#contact">Let's Talk</a>
-                                    <div class="dwnld-btn">
-                                        <a class="cta-btn-2" href="img/cv.webp" download="cv.png"><i class="fa-solid fa-download fa-lg"></i> Download CV</a>
-                                    </div>
+                                <div class="d-flex gap-3 align-items-center pb-5 btns">
+                                    <a class="cta-btn-1" href="#contact">Let's Talk</a>
+                                    <a class="cta-btn-2" href="img/cv.webp" download="cv.png"><i class="fa-solid fa-download fa-lg"></i> Download CV</a>
                                 </div>
                             </div>
                         </div>
@@ -165,54 +165,50 @@
     <!-- services -->
     <section id="services">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 d-flex align-items-center">
-                    <div class="sec-1">
-                        <div class="d-flex">
-                            <h3>WHAT I DO?</h3>
-                            <div>
-                                <img class="arrw" src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
-                            </div>
+            <div class="row align-items-center">
+                <div class="col-md-4">  
+                    <div class="d-flex mb-3">
+                        <h3>WHAT I DO?</h3>
+                        <div>
+                            <img src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
                         </div>
-                        <p data-aos="fade-right"
-                            data-aos-duration="3000">
-                            I offer UI/UX design services,
-                            specializing in user research,
-                            wireframing, prototiping, and
-                            usability testing. My goal is to
-                            create intuitive and engaging digital
-                            experiences that meet your needs
-                            and exceed user expectations.
-                        </p>
-                    </div> 
+                    </div>
+                    <p data-aos="fade-right"
+                        data-aos-duration="3000">
+                        I offer UI/UX design services,
+                        specializing in user research,
+                        wireframing, prototiping, and
+                        usability testing. My goal is to
+                        create intuitive and engaging digital
+                        experiences that meet your needs
+                        and exceed user expectations.
+                    </p>
                 </div>
-
-
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="box">
                         <div class="row">
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6">
+                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6 p-3">
                                 <div  class="service-box">
                                     <i class="fa-solid fa-puzzle-piece fa-lg icon-toggled"></i>
                                     <h5>USER EXPERIENCE (UX)</h5>
                                     <p>focuses on creating seamless interaction between users and products.</p>
                                 </div>
                             </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6">
+                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6 p-3">
                                 <div  class="service-box">
                                     <i class="fa-solid fa-palette fa-lg icon-toggled"></i>
                                     <h5>USER INTERFACE (UI)</h5>
                                     <p>creating visually appealing and interactive elements that users engage with.</p>
                                 </div>
                             </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6 mt-0">
+                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6 p-3">
                                 <div class="service-box">
                                 <i class="fa-solid fa-laptop fa-lg icon-toggled"></i>
                                     <h5>WEB DESIGN</h5>
                                     <p>combines aesthetics and functionality to create engaging online experiences.</p>
                                 </div>
                             </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6 mt-0">
+                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-6 p-3">
                                 <div class="service-box">
                                 <i class="fa-solid fa-mobile-screen-button fa-lg icon-toggled"></i>
                                     <h5>APP DESIGN</h5>
@@ -233,7 +229,7 @@
             <div class="d-flex">
              <h3>ACADEMIC DETAILS</h3>
                 <div>
-                    <img class="arrw" src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
+                    <img src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
                 </div>
             </div>
             <div class="timeline"> 
@@ -290,61 +286,58 @@
             </div> 
         </div>
     </section>
-
+    
+    <!-- skills -->
     <section id="skills">
         <div class="container">
-            <div class="d-flex">
+            <div class="d-flex mb-3">
                 <h3>MY ADVANTAGES</h3>
                 <div>
-                    <img class="arrw" src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
+                    <img src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
                 </div>
             </div>
-            <div class="skill">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div  data-aos="fade-right" data-aos-duration="3000"class="col-md-4">
-                            <img class="lap-bg" src="img/tools-lap.webp" alt="image of laptop" loading="lazy">
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="row mb-3">
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
-                                <div class="skills-icons">
-                                    <img src="img/figma.webp" alt="figma icon" loading="lazy">
-                                    <h5>FIGMA</h5>
-                                </div>
-                            </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
-                                <div class="skills-icons">
-                                    <img src="img/adobe-photoshop .webp" alt="adobe-photoshop icon" loading="lazy">
-                                    <h5>PHOTOSHOP</h5>
-                                </div>
-                            </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
-                                <div class="skills-icons">
-                                    <img src="img/bootstrap .webp" alt="bootstrap-icon" loading="lazy">
-                                    <h5>BOOTSTRAP</h5>
-                                </div>
+            
+            <div class="row">
+                <div data-aos="fade-right" data-aos-duration="3000" class="col-md-4 mt-3">
+                    <img class="img-fluid tools-lap w-100" src="img/tools-lap.webp" alt="image of laptop" loading="lazy">
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="row align-content-start w-100">
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4 col-6 mt-3">
+                            <div class="skills-icons">
+                                <img class="img-fluid mb-3" src="img/figma.webp" alt="figma icon" loading="lazy">
+                                <h5>FIGMA</h5>
                             </div>
                         </div>
-                        <div class="row">
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
-                                <div class="skills-icons">
-                                    <img src="img/html.webp" alt="html icon" loading="lazy">
-                                    <h5>HTML</h5>
-                                </div>
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4 col-6 mt-3">
+                            <div class="skills-icons">
+                                <img class="img-fluid mb-3" src="img/adobe-photoshop.webp" alt="adobe-photoshop icon" loading="lazy">
+                                <h5>PHOTOSHOP</h5>
                             </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
-                                <div class="skills-icons">
-                                    <img src="img/js.webp" alt="javascript icon" loading="lazy">
-                                    <h5>JAVA SCRIPT</h5>
-                                </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4 col-6 mt-3">
+                            <div class="skills-icons">
+                                <img class="img-fluid mb-3"src="img/bootstrap.webp" alt="bootstrap-icon" loading="lazy">
+                                <h5>BOOTSTRAP</h5>
                             </div>
-                            <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4">
-                                <div class="skills-icons">
-                                    <img src="img/css.webp" alt="css icon" loading="lazy">
-                                    <h5>CSS</h5>
-                                </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4 col-6 mt-3">
+                            <div class="skills-icons">
+                                <img class="img-fluid mb-3"src="img/html.webp" alt="html icon" loading="lazy">
+                                <h5>HTML</h5>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4 col-6 mt-3">
+                            <div class="skills-icons">
+                                <img class="img-fluid mb-3"src="img/js.webp" alt="javascript icon" loading="lazy">
+                                <h5>JAVA SCRIPT</h5>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-4 col-6 mt-3">
+                            <div class="skills-icons">
+                                <img class="img-fluid mb-3"src="img/css.webp" alt="css icon" loading="lazy">
+                                <h5>CSS</h5>
                             </div>
                         </div>
                     </div>
@@ -355,15 +348,15 @@
 
 
     <!-- work -->
-    <section id="work">
-        <div  data-aos="fade-up"data-aos-duration="3000" class="work">
+    <section id="work" class="pt-5">
+        <div  data-aos="fade-up"data-aos-duration="3000" class="d-flex align-items-center flex-column justify-content-center pt-4 pb-4">
             <h2>Do you have a Project idea?</h2>
-            <h2>Let’s make greate things together!</h2>
-            <p>I’m always excited collaborate on new and 
-            innovative projects.
-            love to hear about your projects</p>
+            <h2 class="mb-4">Let’s make greate things together!</h2>
+            <p>I’m always eager to collaborate on exciting and innovative projects.
+            If you have an idea in mind, I’d love to hear about your project 
+            and explore how we can bring it to life together.</p>
             <div>
-                <a class="work-btn" href="#contact">Let’s work Together<i class="bi bi-arrow-up-right"></i></a>
+                <a class="work-btn mt-3" href="#contact">Let’s work Together<i class="bi bi-arrow-up-right"></i></a>
             </div>
         </div>
     </section>
@@ -372,52 +365,59 @@
     <!-- portfolio -->
     <section id="portfolio">
         <div class="container">
-            <div class="d-flex">
+            <div class="d-flex mb-4">
                 <h3>MY LATEST WORKS</h3>
                 <div>
-                    <img class="arrw" src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
+                    <img src="img/arrow-right.webp" alt="circle with a line" loading="lazy">
                 </div>
             </div>
         </div>
         <div class="screen-slider">
-            <a class="popup" href="img/reen.webp">
+            <a class="p-3 mt-3" href="img/reen.webp">
                 <div class="slide-items" data-aos="zoom-in"data-aos-duration="2000" >
-                    <img src="img/reen-mockup.webp" alt="comtro app design" loading="lazy">
+                    <img class="img-fluid" src="img/reen-mockup.webp" alt="comtro app design" loading="lazy">
                 </div>
             </a>
 
-            <a class="popup" href="img/connect.webp">
+            <a class="p-3 mt-3" href="img/connect.webp">
                 <div class="slide-items" data-aos="fade-left"data-aos-duration="2000" >
-                    <img src="img/connect-mockup.webp" alt="reen website design" loading="lazy">
+                    <img class="img-fluid" src="img/connect-mockup.webp" alt="reen website design" loading="lazy">
                 </div>
             </a>
 
-            <a href="img/decor.webp">
+            <a class="p-3 mt-3" href="img/decor.webp">
                 <div class="slide-items">
-                    <img src="img/decor-mockup.webp" alt=" connect banner design" loading="lazy">
+                    <img class="img-fluid" src="img/decor-mockup.webp" alt=" connect banner design" loading="lazy">
                 </div>
             </a>
 
-            <a href="img/dashboard.webp">
+            <a class="p-3 mt-3" href="img/dashboard.webp">
                 <div class="slide-items">
-                    <img src="img/dashboard-mockup.webp" alt="dashboard design" loading="lazy">
+                    <img class="img-fluid" src="img/dashboard-mockup.webp" alt="dashboard design" loading="lazy">
                 </div>
             </a>
 
-            <a href="img/health.webp">
+            <a class="p-3 mt-3" href="img/health.webp">
                 <div class="slide-items">
-                    <img src="img/health-mockup.webp" alt="health website design" loading="lazy">
+                    <img class="img-fluid"src="img/health-mockup.webp" alt="health website design" loading="lazy">
                 </div>
             </a>
 
-            <a href="https://fathimafida-p.github.io/comtro/index.html">
+            <a class="p-3 mt-3" href="https://fathimafida-p.github.io/comtro/index.html">
                 <div class="slide-items" data-aos="fade-right"data-aos-duration="2000">
-                    <img src="img/comtro-mockup.webp" alt="comtro website" loading="lazy">
+                    <img class="img-fluid"src="img/comtro-mockup.webp" alt="comtro website" loading="lazy">
                 </div>
             </a>
         </div>
-        <div class="explore-btn">
-           <a href="projects.html"><i class="fa-solid fa-compass fa-xl me-2" style="color: #ffffff;"></i> Explore</a>
+
+        <div class="controls d-flex align-items-center justify-content-center gap-3 mt-4">
+            <button class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>
+           <div class="d-flex align-items-center justify-content-center position-relative">
+                <button class="explore-btn">
+                 <a href="projects.html"><i class="fa-solid fa-compass fa-xl me-2" style="color: #ffffff;"></i> Explore</a>
+                </button>
+           </div>
+            <button class="slick-next"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </section>
 
@@ -427,9 +427,9 @@
         <div class="container">
             <div class="contact-footer">
                 <div class="row">
-                    <h3>Got a vision, Let’s bring it to life!</h3>
+                    <h3 class="mb-5">Got a vision, Let’s bring it to life!</h3>
                     <div data-aos="fade-right" data-aos-duration="3000" class="col-md-5">
-                        <div class="cnt-list">
+                        <div class="cnt-list mb-4 p-3">
                            <i class="fa-solid fa-location-dot fa-lg"></i>
                             <div>
                                 <h6>Address:</h6>
@@ -437,14 +437,14 @@
                                 Malappuram, Kerala</p>
                             </div>
                         </div>
-                        <div class="cnt-list">
+                        <div class="cnt-list mb-4 p-3">
                            <i class="fa-solid fa-envelope fa-lg"></i>
                             <div>
                                 <h6>My Email:</h6>
                                 <p>fathimafidap7736@gmail.com</p>
                             </div>
                         </div>
-                        <div class="cnt-list">
+                        <div class="cnt-list mb-4 p-3">
                             <i class="fa-solid fa-phone fa-lg"></i>
                             <div>
                                 <h6>Call Me Now:</h6>
@@ -452,7 +452,7 @@
                             </div>
                         </div>
 
-                        <div class="icons-contact">
+                        <div class="icons-contact pt-3 mb-5">
                             <a href="https://wa.me/9400071958"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
                             <a href="https://instagram.com/fida._uiux"><i class="fa-brands fa-instagram fa-xl"></i></a>
                             <a href="https://www.linkedin.com/in/fida-p"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
@@ -462,24 +462,24 @@
                     </div>
                     <div data-aos="fade-left" data-aos-duration="3000" class="col-md-7"> 
                         <form>
-                            <div class="input">
+                            <div class="input mb-3">
                                 <label for="name">Name*</label>
                                 <input type="text" id="name" name="name" required>
                             </div>
-                            <div class="input">
+                            <div class="input mb-3">
                                 <label for="email">Email*</label>
                                 <input type="email" id="email" name="email" required>  
                             </div>
-                            <div class="input">
+                            <div class="input mb-3">
                                 <label for="phone">Ph*</label>
                                 <input type="tel" id="phone" name="phone" required>
                             </div>
-                            <div class="input">
+                            <div class="input mb-3">
                                 <label for="message">Message*</label>
                                 <textarea id="message" name="message" required></textarea>
                             </div> 
                         </form>
-                        <div class="submit">
+                        <div class="submit mt-5">
                             <a class="submit-btn" href="">Submit</a>
                             <i class="bi bi-send"></i>
                         </div>
@@ -504,7 +504,7 @@
         <footer>
             <div class="footer">
                 <div class="container">
-                    <div class="footer-cntr">
+                    <div class="d-flex justify-content-between">
                         <div>
                          <img class="logo" src="img/logo.webp" alt="logo">
                         </div>
@@ -523,24 +523,90 @@
 
     <!-- toggle-btn -->
     <script>
+        document.addEventListener("DOMContentLoaded", () => {
         const hamburger = document.querySelector(".hamburger");
-        const navLinks = document.querySelector(".nav-links");
+        const navLinks = document.querySelector("#nav-menu");
         const icon = hamburger.querySelector("i");
 
-        hamburger.addEventListener("click", () => {
-            navLinks.classList.toggle("active");
+        // create overlay dynamically
+        const overlay = document.createElement("div");
+        overlay.style.position = "fixed";
+        overlay.style.inset = "0";
+        overlay.style.background = "rgba(0,0,0,0.4)";
+        overlay.style.zIndex = "998";
+        overlay.style.opacity = "0";
+        overlay.style.transition = "opacity 0.3s ease";
+        overlay.style.display = "none";
+        document.body.appendChild(overlay);
 
-            if (icon.classList.contains("fa-bars")) {
-            icon.classList.remove("fa-bars");
-            icon.classList.add("fa-times");
-            } else {
-            icon.classList.remove("fa-times");
-            icon.classList.add("fa-bars");
-            }
+        function openMenu() {
+        navLinks.classList.add("active");
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times");
+
+        // ensure vertical layout
+        navLinks.style.display = "flex";
+        navLinks.style.flexDirection = "column";
+        navLinks.style.justifyContent = "center";
+        navLinks.style.alignItems = "center";
+
+        // show overlay
+        overlay.style.display = "block";
+        requestAnimationFrame(() => (overlay.style.opacity = "1"));
+
+        // animate in
+        navLinks.animate(
+        [
+            { transform: "translateX(100%)", opacity: 0 },
+            { transform: "translateX(0)", opacity: 1 }
+        ],
+        { duration: 400, easing: "ease-out", fill: "forwards" }
+        );
+        }
+
+        function closeMenu() {
+        navLinks.classList.remove("active");
+        icon.classList.add("fa-bars");
+        icon.classList.remove("fa-times");
+
+        // animate out
+        const anim = navLinks.animate(
+        [
+            { transform: "translateX(0)", opacity: 1 },
+            { transform: "translateX(100%)", opacity: 0 }
+        ],
+        { duration: 400, easing: "ease-in", fill: "forwards" }
+        );
+
+        anim.onfinish = () => {
+        navLinks.style.display = "none";
+        };
+
+        // fade overlay out
+        overlay.style.opacity = "0";
+        setTimeout(() => (overlay.style.display = "none"), 300);
+        }
+
+        hamburger.addEventListener("click", () => {
+        const isActive = navLinks.classList.contains("active");
+        if (isActive) {
+        closeMenu();
+        } else {
+        openMenu();
+        }
+        });
+
+        // click overlay closes menu
+        overlay.addEventListener("click", closeMenu);
+
+        // click link closes menu
+        document.querySelectorAll("#nav-menu a").forEach(link => {
+        link.addEventListener("click", closeMenu);
+        });
         });
     </script>
 
-    
+
     <!-- page-loader -->
     <script>
         window.addEventListener("load", function () {

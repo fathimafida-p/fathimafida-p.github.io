@@ -46,9 +46,12 @@ $('.screen-slider').slick({
   slidesToScroll: 1,
   centerMode: true,
   centerPadding: '0px',
-  arrows: true,
-  prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-arrow-left"></i></button>',
-  nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-arrow-right"></i></button>',
+  arrows: true, 
+  prevArrow: $('.slick-prev'),
+  nextArrow: $('.slick-next'),
+  dots: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 1025,
@@ -78,6 +81,9 @@ $('.screen-slider').slick({
     }
   ]
 });
+
+
+
 
 
 AOS.init();
