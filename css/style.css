@@ -351,6 +351,10 @@ nav li a:hover::after {
   0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
+.about{
+  padding: 0 30px;
+}
+
 .arrow{
   position: absolute;
   left: -110px;
@@ -892,7 +896,6 @@ input, textarea {
   color: white;
   border-radius: 10px;
   padding: 10px 30px;
-  width: 170px;
   transition: 0.3s ease;
 }
 
@@ -914,6 +917,11 @@ input, textarea {
   0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   transform: scale(1.1);
 }
+
+form{
+  max-width: 500px;
+}
+
 
 
 /* footer */
@@ -942,5 +950,101 @@ input, textarea {
 .nav-footer li a:hover::after {
   color: rgba(12, 124, 124, 1); 
 }
+
+/* projects */
+.work-heading h1 {
+  color: #0C7C7C;
+  text-align: center;
+  font-weight: 900;
+}
+
+.project {
+  border: 2px solid rgba(149, 196, 196, 1);
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.project:hover {
+  background-color: rgba(149, 196, 196, 1);
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+  0 18px 36px -18px rgba(0, 0, 0, 0.3),
+  0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  transform: translateY(-15px);
+}
+
+.project img {
+  padding: 25px;
+  border-radius: 45px;
+  filter: grayscale(100%);
+}
+
+.project img:hover {
+  filter: grayscale(0%);
+}
+
+.view-btn {
+  padding: 15px;
+  text-align: end;
+  margin-right: 10px;
+}
+  
+.view-project {
+  padding: 10px 25px;
+  font-size: 14px;
+  display: inline-block;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+  background-color: #0C7C7C;
+  cursor: pointer;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-icons i {
+  transition: 0.3s ease;
+  color: #0C7C7C;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+#footer-2{
+  background-color:rgba(149, 196, 196, 1);
+  padding-top: 60px;
+  margin-top: 40px;
+}
+
+.footer-2-nav li a{
+  color: #0C7C7C;
+}
+
+.footer-2-nav{
+  justify-content: center;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.footer-2-nav li a:hover{
+  color:rgb(255, 255, 255);
+}
+
+.footer-2-nav li a::after {      
+  background-color:rgb(255, 255, 255);
+}
+
+.footer-2-nav li a:hover::after {
+  color: rgba(12, 124, 124, 1); 
+}
+
+
+
 
 

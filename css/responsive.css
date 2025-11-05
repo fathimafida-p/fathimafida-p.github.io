@@ -88,6 +88,19 @@
 
 }
 
+@media screen and (max-width: 1200px) and (min-width: 767px) {
+  .about .arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  #services .arrow-2 {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width:768px) {
   /* education */
   .timeline__event:nth-child(2n+1) .timeline__event__icon:after{
