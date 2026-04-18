@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper-Palette</title>
+    <link rel="stylesheet" href="css/all-products.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awsome.css">
+    <link rel="stylesheet" href="css/aos-min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+    <!-- Google Fonts: Jost and Comfortaa -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+</head>
+
+<body>
+    <div class="bg">
+        <!-- header -->
+        <header>
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="d-flex gap-3 header-icons">
+                        <a href=""><i class="bi bi-person"></i></a>
+                        <a href=""><i class="bi bi-cart3"></i></a>
+                        <a href=""><i class="bi bi-heart"></i></a>
+                    </div>
+                </div>
+                <div class="nav d-flex align-items-center justify-content-center">
+                    <nav>
+                        <ul class="d-flex gap-5 p-4">
+                            <li><a href="#index.html">HOME</a></li>
+                            <li><a href="#shop.html">SHOP</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="d-flex align-items-center justify-content-center gap-1 mb-5 tag">
+            <a href="shop.html">HOME /</a>
+            <a href="all-products.html">ACRYLIC PAINT</a>
+        </div>
+
+        <!-- categories -->
+        <section id="categories">
+            <div class="container">
+                <div class="slide">
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-1.png" alt="paint-tubes">
+                            </div>
+                            <h5>Acrylic Paint</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-2.png" alt="paint-tubes">
+                            </div>
+                            <h5>Oil Paint</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-3.png" alt="paint-tubes">
+                            </div>
+                            <h5>Water Color</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-4.png" alt="paint-tubes">
+                            </div>
+                            <h5>Gouche</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-5.png" alt="paint-tubes">
+                            </div>
+                            <h5>Oil Pastel</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-6.png" alt="paint-tubes">
+                            </div>
+                            <h5>Soft Pastel</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-7.png" alt="paint-tubes">
+                            </div>
+                            <h5>Color Pencils</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-8.png" alt="paint-tubes">
+                            </div>
+                            <h5>Markers</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="categories">
+                            <div class="dotted-ellipse">
+                                <img src="img/ctgry-9.png" alt="paint-tubes">
+                            </div>
+                            <h5>Poster Paint</h5>
+                            <p>(20 items)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- products -->
+    <div class="filter-overlay" id="filterOverlay"></div>
+
+    <div class="container">
+        <div class="d-flex align-items-center mt-4 justify-content-center justify-content-md-end gap-2 flex-wrap">
+            <!-- Filter Button-->
+            <button class="filter-btn d-md-none" id="filterToggle">
+                <i class="bi bi-filter"></i> Filter
+            </button>
+
+            <!-- Featured Dropdown -->
+            <div class=" filter-sidebar d-none d-md-block">
+                <div class="sort-container">
+                    <button class="sort-btn" id="sortToggle">
+                        <span class="sort-text">Featured</span>
+                        <i class="bi bi-chevron-down sort-arrow"></i>
+                    </button>
+
+                    <ul class="sort-dropdown" id="sortMenu">
+                        <li>Featured</li>
+                        <li>Best selling</li>
+                        <li>Alphabetically, A–Z</li>
+                        <li>Alphabetically, Z–A</li>
+                        <li>Price, low to high</li>
+                        <li>Price, high to low</li>
+                        <li>Date, old to new</li>
+                        <li>Date, new to old</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex">
+            <div class="filter-section" id="filterSection">
+                <div class="list mb-5 mt-5">
+                    <div class="title-line">
+                        <h5 class="title-text">CATEGORIES</h5>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href=""><span>Color Spectrum</span></a>
+                        <a href=""><span>Brush boulevard</span></a>
+                        <a href=""><span>Canvas corner</span></a>
+                        <a href=""><span>Peper pathway</span></a>
+                        <a href=""><span>Ink island</span></a>
+                        <a href=""><span>Studio street</span></a>
+                    </div>
+                </div>
+                <div class="list mb-5">
+                    <div class="title-line">
+                        <h5 class="title-text">PRICE</h5>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href=""><span>Below ₹200</span></a>
+                        <a href=""><span>₹200 - ₹500</span></a>
+                        <a href=""><span>₹500 - ₹1000</span></a>
+                        <a href=""><span>Above ₹1000</span></a>
+                    </div>
+                </div>
+                <div class="list mb-5">
+                    <div class="title-line">
+                        <h5 class="title-text">BRANDS</h5>
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <a href=""><span>Liquitex</span></a>
+                        <a href=""><span>Brusto</span></a>
+                        <a href=""><span>Camel</span></a>
+                        <a href=""><span>Faber Castell</span></a>
+                        <a href=""><span>Doms</span></a>
+                        <a href=""><span>Winsor & Newton</span></a>
+                        <a href=""><span>Mont Marte</span></a>
+                        <a href=""><span>Daniel Smith</span></a>
+                    </div>
+                </div>
+                <div class="list mb-5">
+                    <div class="title-line">
+                        <h5 class="title-text">COLOR</h5>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href=""><span>Red</span></a>
+                        <a href=""><span>Blue</span></a>
+                        <a href=""><span>Yellow</span></a>
+                        <a href=""><span>White</span></a>
+                        <a href=""><span>Black</span></a>
+                        <a href=""><span>Metallic</span></a>
+                    </div>
+                </div>
+                <div class="list mb-5">
+                    <div class="title-line">
+                        <h5 class="title-text">TAG</h5>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href=""><span>Best Seller</span></a>
+                        <a href=""><span>Vew Arrival</span></a>
+                        <a href=""><span>Eco-Friendly</span></a>
+                        <a href=""><span>Fast-Dry</span></a>
+                        <a href=""><span>Artist Grade</span></a>
+                        <a href=""><span>Non-Toxic</span></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-1.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-2.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-3.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-4.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-5.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-6.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-7.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-8.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/all-9.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/img-1.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/img-2.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/img-3.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/img-4.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/img-5.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="img/img-6.png" alt="art-supplies">
+                        </div>
+                        <div class="product-info">
+                            <h6>Charcoal Pencils 6pcs Compressed Sticks</h6>
+                            <div class="d-flex align-items-center gap-2">
+                                <p class="price">$70.00</p>
+                                <p class="price-2">$80.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <section class="list">
+            <div class="mb-5">
+                <h3 class="ms-3">Acrylic Paint:</h3>
+                <ul>
+                    <li>Acrylic paints are a type of water-based paint that uses acrylic polymer emulsion as a binding
+                        agent. They are known for their fast-drying time and ability to be used on a variety of
+                        surfaces, making them a popular choice among artists.</li>
+                    <li>We offer a wide range of high-quality acrylic paints from top brands in the industry, ensuring
+                        that artists have access to the right tools for their unique creative projects.</li>
+                    <li>Our acrylic colours are the perfect choice for artists of all levels who want to create stunning
+                        and long-lasting works of art. With our high-quality pigments, smooth texture, and brilliant
+                        hues, you can let your imagination run wild and bring your creations to life. Whether you're a
+                        professional artist or just starting, our acrylic colours will help you take your art to the
+                        next level.</li>
+                    <li>Fast-drying: Acrylic paints dry much faster than oil paints, which allows for quicker layering
+                        and overpainting.</li>
+                    <li>Water-soluble: Acrylic paints are water-soluble, which means they can be thinned and cleaned up
+                        easily with water.</li>
+                    <li>Durable: Once dry, acrylic paints are water-resistant and more durable than other paint types.
+                    </li>
+                    <li>Versatile: Acrylic paints can be used on a wide range of surfaces, including canvas, paper,
+                        wood, and even plastic.</li>
+                </ul>
+            </div>
+            <div class="mb-5">
+                <h3 class="ms-3">Uses of Acrylic Paints:</h3>
+                <ul>
+                    <li>Acrylic paints are incredibly versatile and can be used for a variety of applications.</li>
+                    <li>Canvas Painting: Acrylic paints are perfect for canvas painting, as they can be applied in thin
+                    layers or thick impasto style, creating a range of textures and finishes.</li>
+                    <li>DIY Projects: Acrylic paints are great for DIY projects, such as painting furniture, creating wall art, or painting pottery.</li>
+                    <li>Mixed media art: Acrylic paints can be used in mixed media artwork, such as collages, art journals, and scrapbooking. These paints can be used in combination with other mediums like charcoal, pastels, or ink to create mixed media art. The quick-drying nature of acrylics makes them ideal for layering and blending with other media.</li>
+                    <li>Outdoor art: Acrylic paints are great for creating art that can be displayed outdoors. They are water-resistant, so they can withstand exposure to the elements without fading or washing away. It makes them ideal for outdoor art projects like murals, signage, and garden art.</li>
+                    <li>Textile art: Acrylic paints can be used on fabric to create unique designs on clothing, bags, and other textile items. When mixed with a textile medium, acrylic paints become permanent and can withstand washing and ironing.</li>
+                </ul>
+            </div>
+            <div class="mb-5">
+                <h3 class="ms-3">Types & Brands of Acrylic Paints:</h3>
+                <ul>
+                    <li>We offer a wide range of acrylic paints in different forms, including tubes, jars, and sets. There are different types of acrylic paints available, each with its unique characteristics.</li>
+                    <li>Heavy Body Acrylics: These paints have a thick, buttery consistency and are perfect for artists who prefer to work with impasto techniques or thick layers of paint.</li>
+                    <li>Soft Body Acrylics: These paints have a thinner consistency and are ideal for artists who prefer to work with glazes or thin layers of paint.</li>
+                    <li>Acrylic Inks: These are highly pigmented, fluid acrylics that are perfect for airbrushing, calligraphy, and adding details to mixed media projects.</li>
+                    <li>Spray Paints: These are acrylic paints that come in aerosol cans, making them ideal for large-scale outdoor projects.</li>
+                    <li>We offer a wide range of top-quality acrylic paints from leading brands in the industry, including Liquitex, Winsor & Newton, and Daler Rowney. These brands are known for their high-quality pigments, consistency, and durability, ensuring that artists get the best possible results from their acrylic paintings.</li>
+                    <li>Start exploring the world of acrylic painting today with our premium-quality acrylic colours. Choose from our wide range of colours and enjoy the smooth texture and vibrant hues that will make your art come alive. Shop now and elevate your artwork to new heights.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="ms-3">FAQs:</h3>
+                <ol>
+                    <li>What is the drying time for acrylic paints?
+                        <p>Ans - Acrylic paints dry quickly, usually within 10 to 30 minutes, depending on the thickness of the paint and the humidity in the air.</p>
+                    </li>
+                    <li>How do I thin acrylic paints?
+                        <p>Ans - Acrylic paints can be thinned with water or a medium designed for use with acrylics. Be careful not to over-thin the paint, as it can affect the colour and consistency of the paint.</p>
+                    </li>
+                    <li>Can I mix different brands of acrylic paints?
+                        <p>Ans - Yes, you can mix different brands of acrylic paints. However, it is important to note that different brands may have different consistencies and pigment loads, which could affect the outcome. It is recommended to do a small test before mixing large amounts of paint.</p>
+                    </li>
+                    <li>Can I use acrylic paints on the fabric?
+                        <p>Ans - Yes, acrylic paints can be used on fabric. However, it is recommended to use a fabric medium to mix with the acrylic paints to ensure that the paint adheres properly to the fabric and doesn't crack or peel off. It is also recommended to heat-set the painted fabric with an iron after it has dried to make the paint more permanent.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <footer id="footer" class="mt-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center newsletter">
+                <h4>Sign up and Get Out</h4>
+                <h4 class="mb-5">Latest Updation</h4>
+                <p class="email">Write Your Email...</p>
+                <span></span>
+                <button class="subscribe-btn">SUBSCRIBE NOW</button>
+            </div>
+
+            <nav class="d-flex justify-content-center mt-5">
+                <ul class="d-flex gap-5 mb-5">
+                    <li><a href="#index.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="#about.html">ABOUT</a></li>
+                    <li><a href="#contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer d-flex flex-column align-items-center">
+                <img class="mb-5" src="img/logo.png" alt="logo">
+                <div class="social-links d-flex gap-4 mb-3">
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-pinterest"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                <p>1234 Heaven Street,USA |
+                    (+84) 1800 68 68 |
+                    hello@domain.com</p>
+                <p>PAPER-PALETTE
+                    copyright 2025 All Rights Reserverd</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterBtn = document.getElementById("filterToggle");
+            const filterSection = document.getElementById("filterSection");
+            const overlay = document.getElementById("filterOverlay");
+
+            function toggleFilter() {
+                filterSection.classList.toggle("open");
+                overlay.classList.toggle("active");
+            }
+
+            filterBtn.addEventListener("click", toggleFilter);
+
+            overlay.addEventListener("click", toggleFilter);
+        });
+    </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/aos-min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
